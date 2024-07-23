@@ -1,0 +1,31 @@
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  background:url('../src/images/bg.jpg') repeat 0 0;
+  background-position: center;
+  animation: animate 100s infinite;
+  animation-timing-function: linear;
+  
+}
+
+@keyframes animate{
+  100%{
+    background-position: 1200px 1200px;
+  }
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgba(136, 136, 136, 0.281);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #555;
+}
+
+
+
